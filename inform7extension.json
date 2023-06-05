@@ -1,0 +1,82 @@
+{
+	"New Situation": {
+		"prefix": "situation",
+		"body": [
+			"Table of GameEventIDs (continued)",
+			"Object\tName",
+			"${1:Event Name}\t\"${1:Event Name}\"",
+			"",
+			"${1:Event Name} is a situation.",
+			"ResolveFunction of ${1:Event Name} is \"[ResolveEvent ${1:Event Name}]\".",
+			"Sarea of ${1:Event Name} is \"${2:Nowhere}\".",
+			"",
+			"to say ResolveEvent ${1:Event Name}:",
+			"\t$0"
+		],
+		"description": "Create a new Situation"
+	},
+	"Walkin Table": {
+		"prefix": "walkintable",
+		"body": [
+			"Table of ${1|NavIn,WalkIn|}Events (continued)",
+			"Priority\tName\tEventObject\tEventConditions\tEventRoom\tLastEncounterTurn\tCoolDownTurns\tEncounterPercentage",
+			"${2:3}\t\"${3:EventName}\"\t${3:EventName}\t\"[EventConditions_${3:EventName}]\"\t${4:Grey Abbey Library}\t2500\t${5:2}\t${6:100}",
+			"",
+			"to say EventConditions_${3:EventName}:",
+			"\tif $0:",
+			"\t\tnow CurrentWalkinEvent_ConditionsMet is true;"
+		],
+		"description": "Add to walkin/navin table"
+	},
+	"Open End Choice": {
+		"prefix": "openchoice",
+		"body": [
+			"let ${1:Event_Context}_Choices be a list of text;",
+			"add \"${2:Choice 1}\" to ${1:Event_Context}_Choices;",
+			"let ${1:Event_Context}_Choice be what the player chooses from ${1:Event_Context}_Choices;",
+			"if ${1:Event_Context}_Choice is:",
+			"\t-- \"${2:Choice 1}\":",
+			"\t\tLineBreak;",
+			"\t\t$0"
+		],
+		"description": "Create a new list of choices"
+	},
+	"Yes/No Choice": {
+		"prefix": "closechoice",
+		"body": [
+			"LineBreak;",
+			"say \"     ${1:[bold type]Make a choice.[roman type][line break]}\"",
+			"LineBreak;",
+			"say \"     ([link]Y[as]y[end link]) - Yes\";",
+			"say \"     ([link]N[as]n[end link]) - No\";",
+			"if Player consents:",
+			"\tLineBreak;",
+			"\t$0",
+			"else:",
+			"\tLineBreak;"
+		],
+		"description": "Create a new boolean choice question"
+	},
+	"Loot Table": {
+		"prefix": "trophylist",
+		"body": [
+			"to say GenerateTrophyList_${1:${TM_FILENAME_BASE/[\\ ]//}}:",
+			"\t[ Reminder: LootBonus can be +35 at maximum - 10 for Magpie Eyes, 15 for Mugger and 10 from Player Perception ]",
+			"\tif a random chance of (80 + LootBonus) in 100 succeeds: [common drop]",
+			"\t\tadd \"$2\" to CombatTrophyList;",
+			"\tif a random chance of (50 + LootBonus) in 100 succeeds: [common drop]",
+			"\t\tadd \"dirty water\" to CombatTrophyList;",
+			"\tif a random chance of (30 + LootBonus) in 100 succeeds: [uncommon drop]",
+			"\t\tadd \"food\" to CombatTrophyList;",
+			"\tif a random chance of (20 + LootBonus) in 100 succeeds: [uncommon drop]",
+			"\t\tadd \"soda\" to CombatTrophyList;",
+			"\tif a random chance of (20 + LootBonus) in 100 succeeds: [uncommon drop]",
+			"\t\tadd \"tennis ball\" to CombatTrophyList;",
+			"\tif a random chance of (10 + LootBonus) in 100 succeeds: [rare drop]",
+			"\t\tadd \"clean bandages\" to CombatTrophyList;",
+			"\tif Debug is at level 10:",
+			"\t\tsay \"DEBUG: Trophy List: [CombatTrophyList].\";"
+		],
+		"description": "Create a new loot table"
+	}
+}
