@@ -11,3 +11,4 @@ Currently, there are snippets for:
 - `walkintable` - Adding a situation to a walkin/navin table
 - `openchoice` - Creating an open-ended choice tree
 - `closechoice` - Creating a yes/no boolean choice
+- `trophylist` - Create a Trophy List / Loot Table
