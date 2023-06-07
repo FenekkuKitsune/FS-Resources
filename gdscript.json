@@ -22,10 +22,14 @@
 			"func _ready():",
 			"\tsuper()",
 			"\tconversation = self.${1:trixie}_talking",
+			"\tsex_menu = self.${2:trixies}_sex_menu",
 			"",
 			"",
 			"func ${1:trixie}_talking():",
-			"\t$0"
+			"\t$0",
+			"",
+			"func ${2:trixies}_sex_menu():",
+			"\t"
 		],
 		"description": "Create a new NPC"
 	},
