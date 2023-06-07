@@ -12,4 +12,4 @@ Currently, there are snippets for:
 - `openchoice` - Creating an open-ended choice tree
 - `closechoice` - Creating a yes/no boolean choice
 - `trophylist` - Create a Trophy List / Loot Table
-- `newchar` - Create a new character template
+- `newnpc` - Create a new NPC template
