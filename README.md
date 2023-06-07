@@ -3,8 +3,11 @@ This repository contains extra resources for coding Flexible Survival
 
 ## VSCode Snippets
 Installation instructions:
-1: Place the wanted .json file in `%AppData%\Code\User\snippets` (merge or replace files if needed)
-2: Ensure VSCode setting `editor.tabCompletion` is set to `onlySnippets` or `on`
+1: Download the RAW snippet .json from this repository
+2: Place the .json file in `%AppData%\Code\User\snippets` (merge or replace files if needed)
+3: Ensure VSCode setting `editor.tabCompletion` is set to `onlySnippets` or `on`
+
+**DO NOT PULL THIS REPOSITORY INTO YOUR SNIPPETS FOLDER**, snippets are not the only files that will be in this repository, and pulling the entire repo into your VSCode User Snippets folder could potentially cause issues!
 
 Usage instructions:
 1: Type the snippet prefix - i.e. `situation` - where you're wanting to insert the snippet
