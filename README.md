@@ -2,10 +2,18 @@
 This repository contains extra resources for coding Flexible Survival
 
 ## VSCode Snippets
-The inform7extension.json file contains snippets for VSCode. Placing that file in `%AppData%\Code\User\snippets` will allow you to autofill code in Inform files specific to Flexible Survival. To make it easier, in VSCode's settings set `editor.tabCompletion` to `onlySnippets` or `on`. If you already have snippets for Inform, copy/paste the snippets from this file into your pre-existing snippets file and resolve any errors.
+Installation instructions:
+1: Place the wanted .json file in `%AppData%\Code\User\snippets` (merge or replace files if needed)
+2: Ensure VSCode setting `editor.tabCompletion` is set to `onlySnippets` or `on`
 
-To use the snippets you must type in the command for the snippet wherever you want the code in the file, for example `situation`, then if you've set the `editor.tabCompletion` setting as above, simply hitting tab will fill in the relevant code for you. Your cursor will be automatically moved to set places in the snippet, and hitting tab again will move your cursor to the next position in the snippet until finished. I've got it set up so it *should* be helpful, but I can always change it if needed.
+Usage instructions:
+1: Type the snippet prefix - i.e. `situation` - where you're wanting to insert the snippet
+2: As you're typing, the snippet should eventually appear in the context menu. Once you've found it, hit tab on your keyboard to insert the snippet
 
+Once the snippet is inserted, your cursor will be automatically moved to preset tabstops, sometimes selecting predefined text. Hitting tab again will move you to the next tabstop, until the snippet is finished. You can cancel this at any time by hitting escape, or manually moving the cursor.
+
+Feel free to offer suggestions for snippets to add.
+### Inform 7
 Currently, there are snippets for:
 - `situation` - Creating a new situation
 - `walkintable` - Adding a situation to a walkin/navin table
@@ -13,3 +21,10 @@ Currently, there are snippets for:
 - `closechoice` - Creating a yes/no boolean choice
 - `trophylist` - Create a Trophy List / Loot Table
 - `newnpc` - Create a new NPC template
+
+### Godot
+This snippet file - like the code it is used for - is in BETA and subject to change. The snippets within the file may not always be correct.
+
+Currently, there are snippets for:
+- `newnpc` - Create a new NPC template
+- `openchoice` - Create an open-ended choice tree
