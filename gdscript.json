@@ -1,0 +1,46 @@
+{
+	// Place your snippets for gdscript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"NPC Script": {
+		"prefix": "newnpc",
+		"body": [
+			"extends FSNPC",
+			"",
+			"# Called when the node enters the scene tree for the first time.",
+			"func _ready():",
+			"\tsuper()",
+			"\tconversation = self.${1:trixie}_talking",
+			"",
+			"",
+			"func ${1:trixie}_talking():",
+			"\t$0"
+		],
+		"description": "Create a new NPC"
+	},
+	"Open End Choice": {
+		"prefix": "openchoice",
+		"body": [
+			"var list_of_choices = [",
+			"\t$1",
+			"",
+			"var choice = await choose_from(list_of_choices) # Creates a button for each text entry in the list of choices and waits for the player to choose one",
+			"match choice:",
+			"\t$0",
+			"\t_:",
+			"\t\terror(\"Error: No choices were in list_of_choices, so the player cannot choose an option. File: \" + self.name)"
+		],
+		"description": "Create a new list of choices"
+	}
+}
