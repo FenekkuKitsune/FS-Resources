@@ -15,6 +15,8 @@ Usage instructions:
 
 Once the snippet is inserted, your cursor will be automatically moved to preset tabstops, sometimes selecting predefined text. Hitting tab again will move you to the next tabstop, until the snippet is finished. You can cancel this at any time by hitting escape, or manually moving the cursor.
 
+Some snippets will have multiple-choice presets, these will show a context menu when you reach them. To select from the menu, use your mouse to scroll and click an option. Hitting tab without selecting any option will default to the first option in the list.
+
 Feel free to offer suggestions for snippets to add.
 ### Inform 7
 Currently, there are snippets for:
@@ -25,6 +27,7 @@ Currently, there are snippets for:
 - `trophylist` - Create a Trophy List / Loot Table
 - `newnpc` - Create a new NPC template
 - `say` - New Say line
+- `badspots` - Add BadSpots line
 
 ### Godot
 This snippet file - like the code it is used for - is in BETA and subject to change. The snippets within the file may not always be correct.
