@@ -12,7 +12,13 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-
+	"Say": {
+		"prefix": "say",
+		"body": [
+			"say \"     $1\";$0"
+		],
+		"description": "Say function"
+	},
 	"New Situation": {
 		"prefix": "situation",
 		"body": [

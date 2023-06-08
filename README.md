@@ -24,6 +24,7 @@ Currently, there are snippets for:
 - `closechoice` - Creating a yes/no boolean choice
 - `trophylist` - Create a Trophy List / Loot Table
 - `newnpc` - Create a new NPC template
+- `say` - New Say line
 
 ### Godot
 This snippet file - like the code it is used for - is in BETA and subject to change. The snippets within the file may not always be correct.
@@ -31,3 +32,4 @@ This snippet file - like the code it is used for - is in BETA and subject to cha
 Currently, there are snippets for:
 - `newnpc` - Create a new NPC template
 - `openchoice` - Create an open-ended choice tree
+- `say` - New Say line
