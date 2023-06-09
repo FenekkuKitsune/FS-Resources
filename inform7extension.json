@@ -22,7 +22,7 @@
 	"BadSpots": {
 		"prefix": "badspot",
 		"body": [
-			"add ${1:${TM_FILENAME_BASE/[\\ ]//}} to BadSpots of ${2|BodyhorrorList,FurryList,DemonList,FeralList,HumorousList,HumanoidList,FemaleList,HermList,MaleList,TransList,CockvoreList,CuckList,IncestList,MindcontrolList,NonconList,VoreList|}"
+			"add ${1:Situation} to BadSpots of ${2|BodyhorrorList,FurryList,DemonList,FeralList,HumorousList,HumanoidList,FemaleList,HermList,MaleList,TransList,CockvoreList,CuckList,IncestList,MindcontrolList,NonconList,VoreList|}"
 		],
 		"description": "Add Situation to BadSpots of one of the various lists"
 	},
