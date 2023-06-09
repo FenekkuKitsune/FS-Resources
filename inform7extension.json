@@ -33,9 +33,12 @@
 			"Object\tName",
 			"${1:Event Name}\t\"${1:Event Name}\"",
 			"",
+			"${2:when play begins:}",
+			"\t$3",
+			"",
 			"${1:Event Name} is a situation.",
 			"ResolveFunction of ${1:Event Name} is \"[ResolveEvent ${1:Event Name}]\".",
-			"Sarea of ${1:Event Name} is \"${2:Nowhere}\".",
+			"Sarea of ${1:Event Name} is \"${4:Nowhere}\".",
 			"",
 			"to say ResolveEvent ${1:Event Name}:",
 			"\t$0"
