@@ -20,14 +20,15 @@ Some snippets will have multiple-choice presets, these will show a context menu 
 Feel free to offer suggestions for snippets to add.
 ### Inform 7
 Currently, there are snippets for:
+- `say` - New Say line
+- `badspots` - Add BadSpots line
 - `situation` - Creating a new situation
 - `walkintable` - Adding a situation to a walkin/navin table
 - `openchoice` - Creating an open-ended choice tree
 - `closechoice` - Creating a yes/no boolean choice
 - `trophylist` - Create a Trophy List / Loot Table
 - `newnpc` - Create a new NPC template
-- `say` - New Say line
-- `badspots` - Add BadSpots line
+- `addend` - Add a forced ending
 
 ### Godot
 This snippet file - like the code it is used for - is in BETA and subject to change. The snippets within the file may not always be correct.

@@ -109,6 +109,18 @@
 		],
 		"description": "Create a new loot table"
 	},
+	"Add Ending": {
+		"prefix": "addend",
+		"body": [
+			"wait for any key;",
+			"now battleground is \"Void\";",
+			"the Player was ended by \"$1\";",
+			"trigger ending \"${2:Player was consumed}\";",
+			"end the story saying \"${3:Player was consumed}\";",
+			"$0"
+		],
+		"description": "Add a forced ending"
+	},
 	"New NPC": {
 		"prefix": "newnpc",
 		"body": [
