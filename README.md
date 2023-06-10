@@ -42,8 +42,9 @@ Feel free to offer suggestions for snippets to add.
 - `openchoice` - Creating an open-ended choice tree
 - `closechoice` - Creating a yes/no boolean choice
 - `trophylist` - Create a Trophy List / Loot Table
+- `triggerend` - Trigger and ending
+- `addend` - Add an ending
 - `newnpc` - Create a new NPC template
-- `addend` - Add a forced ending
 
 </details>
 

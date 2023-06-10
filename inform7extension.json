@@ -130,17 +130,28 @@
 		],
 		"description": "Create a new loot table"
 	},
+	"Trigger Ending": {
+		"prefix": "triggerend",
+		"body": [
+			"trigger ending \"${1:Player has died}\"",
+			"end the story saying \"${2:You're dead - DEAD!}\";$0"
+		],
+		"description": "Trigger an ending, remember to define the ending!"
+	},
 	"Add Ending": {
 		"prefix": "addend",
 		"body": [
-			"wait for any key;",
-			"now battleground is \"Void\";",
-			"the Player was ended by \"$1\";",
-			"trigger ending \"${2:Player was consumed}\";",
-			"end the story saying \"${3:Player was consumed}\";",
+			"Table of GameEndings (continued)",
+			"Name (text)\tType (text)\tSubtype (text)\tEnding (rule)\tPriority (number)\tTriggered (truth state)",
+			"\"${1:Ending Name}\"\t\"${2:BadEnd}\"\t\"${3:Subtype}\"\t${4:Ending} rule\t${5:900}\t${6:false}",
+			"",
+			"This is the ${4:Ending} rule:",
+			"\tif ending \"${1:Ending Name}\" is triggered:",
+			"\t\tsay \"     $7\";",
+			"\t\tthe Player is $8;",
 			"$0"
 		],
-		"description": "Add a forced ending"
+		"description": "Add an ending which can be triggered using triggerend"
 	},
 	"New NPC": {
 		"prefix": "newnpc",
