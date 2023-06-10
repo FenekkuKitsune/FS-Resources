@@ -35,6 +35,7 @@ Feel free to offer suggestions for snippets to add.
 - `say` - New Say line
 - `sayif` - Inline if statement i.e. `[if player is nocturnal]say stuff [else]other stuff [end if]`
 - `badspots` - Add BadSpots line
+- `resolution` - Set Resolution of event
 - `situation` - Creating a new situation
 - `walkintable` - Adding a situation to a walkin/navin table
 - `openchoice` - Creating an open-ended choice tree

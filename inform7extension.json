@@ -33,6 +33,13 @@
 		],
 		"description": "Add Situation to BadSpots of one of the various lists"
 	},
+	"Resolution of Event": {
+		"prefix": "resolution",
+		"body": [
+			"now Resolution of ${1:Event} is ${2:1};"
+		],
+		"description": "now Resolution of event is x;"
+	},
 	"New Situation": {
 		"prefix": "situation",
 		"body": [
