@@ -143,12 +143,12 @@
 		"body": [
 			"Table of GameEndings (continued)",
 			"Name (text)\tType (text)\tSubtype (text)\tEnding (rule)\tPriority (number)\tTriggered (truth state)",
-			"\"${1:Ending Name}\"\t\"${2:BadEnd}\"\t\"${3:Subtype}\"\t${4:Ending} rule\t${5:900}\t${6:false}",
+			"\"${1:Ending Name}\"\t\"${2:BadEnd}\"\t\"${3:Subtype}\"\t${4:Ending} rule\t${5:900}\tfalse",
 			"",
 			"This is the ${4:Ending} rule:",
 			"\tif ending \"${1:Ending Name}\" is triggered:",
-			"\t\tsay \"     $7\";",
-			"\t\tthe Player is $8;",
+			"\t\tsay \"     $6\";",
+			"\t\tthe Player is ${7|dead,enslaved,left|};",
 			"$0"
 		],
 		"description": "Add an ending which can be triggered using triggerend"
