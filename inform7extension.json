@@ -96,7 +96,7 @@
 		"prefix": "closechoice",
 		"body": [
 			"LineBreak;",
-			"say \"     ${1:[bold type]Make a choice.[roman type][line break]}\"",
+			"say \"     [bold type]${1:Make a choice.}[roman type][line break]\"",
 			"LineBreak;",
 			"say \"     ([link]Y[as]y[end link]) - Yes\";",
 			"say \"     ([link]N[as]n[end link]) - No\";",
