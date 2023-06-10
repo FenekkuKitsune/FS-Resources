@@ -133,7 +133,7 @@
 	"Trigger Ending": {
 		"prefix": "triggerend",
 		"body": [
-			"trigger ending \"${1:Player has died}\"",
+			"trigger ending \"${1:Player has died}\";",
 			"end the story saying \"${2:You're dead - DEAD!}\";$0"
 		],
 		"description": "Trigger an ending, remember to define the ending!"
