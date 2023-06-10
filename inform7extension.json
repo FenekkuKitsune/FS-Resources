@@ -143,7 +143,7 @@
 		"body": [
 			"Table of GameEndings (continued)",
 			"Name (text)\tType (text)\tSubtype (text)\tEnding (rule)\tPriority (number)\tTriggered (truth state)",
-			"\"${1:Ending Name}\"\t\"${2:BadEnd}\"\t\"${3:Subtype}\"\t${4:Ending} rule\t${5:900}\tfalse",
+			"\"${1:Ending Name}\"\t\"${2:BadEnd}\"\t\"${3:Subtype}\"\t${4:Ending} rule\t${5:1}\tfalse",
 			"",
 			"This is the ${4:Ending} rule:",
 			"\tif ending \"${1:Ending Name}\" is triggered:",
