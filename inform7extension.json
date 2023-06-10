@@ -19,6 +19,13 @@
 		],
 		"description": "Say function"
 	},
+	"Format text": {
+		"prefix": "ttype",
+		"body": [
+			"[${1|bold,italic|} type]$2[roman type]$0"
+		],
+		"description": "Format the text with bold/italic/underline"
+	},
 	"Insay if statement": {
 		"prefix": "sayif",
 		"body": [

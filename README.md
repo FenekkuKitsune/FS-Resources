@@ -33,7 +33,8 @@ Feel free to offer suggestions for snippets to add.
 <br>
 
 - `say` - New Say line
-- `sayif` - Inline if statement i.e. `[if player is nocturnal]say stuff [else]other stuff [end if]`
+- `ttype` - Format inline text, bold/italic
+- `sayif` - Inline if statement
 - `badspots` - Add BadSpots line
 - `resolution` - Set Resolution of event
 - `situation` - Creating a new situation
