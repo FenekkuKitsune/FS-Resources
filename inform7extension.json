@@ -214,5 +214,24 @@
 			"$0"
 		],
 		"description": "Create a new NPC"
+	},
+	"New Room": {
+		"prefix": "newroom",
+		"body": [
+			"Table of GameRoomIDs (continued)",
+			"Object\tName",
+			"${1:Room Name}\t\"${1:Room Name}\"",
+			"",
+			"${1:Room Name} is ${2|north,northeast,east,southeast,south,southwest,west,northwest|} of ${3:Connected Room}.",
+			"The earea of ${1:Room Name} is \"${4:Outside}\".",
+			"Description of ${1:Room Name} is \"[${5:RoomName}Desc]\".",
+			"",
+			"to say ${5:RoomName}Desc:",
+			"\tsay \"     $0\"",
+			"",
+			"instead of sniffing ${1:Room Name}:",
+			"\tsay \"     \""
+		],
+		"description": "Add a new room"
 	}
 }

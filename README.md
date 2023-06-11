@@ -45,6 +45,7 @@ Feel free to offer suggestions for snippets to add.
 - `triggerend` - Trigger and ending
 - `addend` - Add an ending
 - `newnpc` - Create a new NPC template
+- `newroom` - Add a new room
 
 </details>
 
