@@ -32,20 +32,21 @@ Feel free to offer suggestions for snippets to add.
 <summary>Prefixes</summary>
 <br>
 
-- `say` - New Say line
-- `ttype` - Format inline text, bold/italic
-- `sayif` - Inline if statement
-- `badspots` - Add BadSpots line
-- `resolution` - Set Resolution of event
-- `situation` - Creating a new situation
+- `say`         - New Say line
+- `ttype`       - Format inline text, bold/italic
+- `sayif`       - Inline if statement
+- `if`          - If statement
+- `badspots`    - Add BadSpots line
+- `resolution`  - Set Resolution of event
+- `situation`   - Creating a new situation
 - `walkintable` - Adding a situation to a walkin/navin table
-- `openchoice` - Creating an open-ended choice tree
+- `openchoice`  - Creating an open-ended choice tree
 - `closechoice` - Creating a yes/no boolean choice
-- `trophylist` - Create a Trophy List / Loot Table
-- `triggerend` - Trigger and ending
-- `addend` - Add an ending
-- `newnpc` - Create a new NPC template
-- `newroom` - Add a new room
+- `trophylist`  - Create a Trophy List / Loot Table
+- `triggerend`  - Trigger and ending
+- `addend`      - Add an ending
+- `newnpc`      - Create a new NPC template
+- `newroom`     - Add a new room
 
 </details>
 
@@ -56,9 +57,9 @@ This snippet file - like the code it is used for - is in BETA and subject to cha
 <summary>Prefixes</summary>
 <br>
 
-- `newnpc` - Create a new NPC template
-- `openchoice` - Create an open-ended choice tree
-- `say` - New Say line
+- `newnpc`      - Create a new NPC template
+- `openchoice`  - Create an open-ended choice tree
+- `say`         - New Say line
 
 </details>
 

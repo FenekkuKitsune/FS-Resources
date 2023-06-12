@@ -33,6 +33,14 @@
 		],
 		"description": "Inline if statement for say"
 	},
+	"if statement": {
+		"prefix": "if",
+		"body": [
+			"if $1:",
+			"\tsay \"     $0\""
+		],
+		"description": "If statement"
+	},
 	"BadSpots": {
 		"prefix": "badspot",
 		"body": [
