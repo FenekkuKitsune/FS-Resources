@@ -37,7 +37,7 @@
 		"prefix": "if",
 		"body": [
 			"if $1:",
-			"\tsay \"     $0\""
+			"\tsay \"     $0\";"
 		],
 		"description": "If statement"
 	},
@@ -104,7 +104,7 @@
 		"prefix": "closechoice",
 		"body": [
 			"LineBreak;",
-			"say \"     [bold type]${1:Make a choice.}[roman type][line break]\"",
+			"say \"     [bold type]${1:Make a choice.}[roman type][line break]\";",
 			"LineBreak;",
 			"say \"     ([link]Y[as]y[end link]) - Yes\";",
 			"say \"     ([link]N[as]n[end link]) - No\";",
@@ -235,10 +235,10 @@
 			"Description of ${1:Room Name} is \"[${5:RoomName}Desc]\".",
 			"",
 			"to say ${5:RoomName}Desc:",
-			"\tsay \"     $0\"",
+			"\tsay \"     $0\";",
 			"",
 			"instead of sniffing ${1:Room Name}:",
-			"\tsay \"     \""
+			"\tsay \"     \";"
 		],
 		"description": "Add a new room"
 	}
