@@ -12,7 +12,14 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"Say": {
+	"Gender Check": { // Stuff for checks
+		"prefix": "gender",
+		"body": [
+			"player is ${1|puremale,male,neuter,herm,female,purefemale|}$0"
+		],
+		"description": "Check the player's gender"
+	},
+	"Say": { // Stuff for say statements
 		"prefix": "say",
 		"body": [
 			"say \"     $0\";"
@@ -41,21 +48,7 @@
 		],
 		"description": "If statement"
 	},
-	"BadSpots": {
-		"prefix": "badspot",
-		"body": [
-			"add ${1:Situation} to BadSpots of ${2|BodyhorrorList,FurryList,DemonList,FeralList,HumorousList,HumanoidList,FemaleList,HermList,MaleList,TransList,CockvoreList,CuckList,IncestList,MindcontrolList,NonconList,VoreList|};$0"
-		],
-		"description": "Add Situation to BadSpots of one of the various lists"
-	},
-	"Resolution of Event": {
-		"prefix": "resolution",
-		"body": [
-			"now Resolution of ${1:Event} is ${2:1};"
-		],
-		"description": "now Resolution of event is x;"
-	},
-	"New Situation": {
+	"New Situation": { // Stuff for situations
 		"prefix": "situation",
 		"body": [
 			"Table of GameEventIDs (continued)",
@@ -87,7 +80,21 @@
 		],
 		"description": "Add to walkin/navin table"
 	},
-	"Open End Choice": {
+	"BadSpots": {
+		"prefix": "badspot",
+		"body": [
+			"add ${1:Situation} to BadSpots of ${2|BodyhorrorList,FurryList,DemonList,FeralList,HumorousList,HumanoidList,FemaleList,HermList,MaleList,TransList,CockvoreList,CuckList,IncestList,MindcontrolList,NonconList,VoreList|};$0"
+		],
+		"description": "Add Situation to BadSpots of one of the various lists"
+	},
+	"Resolution of Event": {
+		"prefix": "resolution",
+		"body": [
+			"now Resolution of ${1:Event} is ${2:1};"
+		],
+		"description": "now Resolution of event is x;"
+	},
+	"Open End Choice": { // Stuff for choice trees
 		"prefix": "openchoice",
 		"body": [
 			"let ${1:Event_Context}_Choices be a list of text;",
@@ -116,7 +123,7 @@
 		],
 		"description": "Create a new boolean choice question"
 	},
-	"Loot Table": {
+	"Loot Table": { // Stuff for loot
 		"prefix": "trophylist",
 		"body": [
 			"to say GenerateTrophyList_${1:${TM_FILENAME_BASE/[\\ ]//}}:",
@@ -138,15 +145,7 @@
 		],
 		"description": "Create a new loot table"
 	},
-	"Trigger Ending": {
-		"prefix": "triggerend",
-		"body": [
-			"trigger ending \"${1:Player has died}\";",
-			"end the story saying \"${2:You're dead - DEAD!}\";$0"
-		],
-		"description": "Trigger an ending, remember to define the ending!"
-	},
-	"Add Ending": {
+	"Add Ending": { // Stuff for endings
 		"prefix": "addend",
 		"body": [
 			"Table of GameEndings (continued)",
@@ -161,7 +160,15 @@
 		],
 		"description": "Add an ending which can be triggered using triggerend"
 	},
-	"New NPC": {
+	"Trigger Ending": {
+		"prefix": "triggerend",
+		"body": [
+			"trigger ending \"${1:Player has died}\";",
+			"end the story saying \"${2:You're dead - DEAD!}\";$0"
+		],
+		"description": "Trigger an ending, remember to define the ending!"
+	},
+	"New NPC": { // Stuff for NPC's
 		"prefix": "newnpc",
 		"body": [
 			"${1:${TM_FILENAME_BASE/[\\ ]//}} by ${2:You} begins here.",
@@ -223,7 +230,7 @@
 		],
 		"description": "Create a new NPC"
 	},
-	"New Room": {
+	"New Room": { // Stuff for locations
 		"prefix": "newroom",
 		"body": [
 			"Table of GameRoomIDs (continued)",
