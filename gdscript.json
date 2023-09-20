@@ -13,12 +13,38 @@
 	// 	"description": "Log output to console"
 	// }
 
+	"Await": {
+		"prefix": "await",
+		"body": [
+			"await next()"
+		],
+		"description": "Await function"
+	},
 	"Say": {
 		"prefix": "say",
 		"body": [
 			"say(\"$1\")$0"
 		],
 		"Description": "Say function"
+	},
+	"Scene Setup": {
+		"prefix": "scenec",
+		"body": [
+			"func scene_controller():",
+			"\tif ${1:condition}:",
+			"\t\t${2:scene_one}()",
+			"\telse:",
+			"\t\t${3:scene_two}()",
+			"",
+			"",
+			"func ${2:scene_one}():",
+			"\t$0",
+			"",
+			"",
+			"func ${3:scene_two}():",
+			"\t"
+		],
+		"description": "New Scene Controller functions"
 	},
 	"NPC Script": {
 		"prefix": "newnpc",
