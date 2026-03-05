@@ -1,8 +1,8 @@
 # Flexible Survival Resources
+
 ## VSCode Snippets
-<details>
-<summary>Installation Instructions</summary>
-<br>
+
+### Installation Instructions
 
 Installation instructions:
 1: Download the RAW snippet .json from this repository
@@ -11,10 +11,7 @@ Installation instructions:
 
 **DO NOT PULL THIS REPOSITORY INTO YOUR SNIPPETS FOLDER**, snippets are not the only files that will be in this repository, and pulling the entire repo into your VSCode User Snippets folder could potentially cause issues!
 
-</details>
-<details>
-<summary>Usage Instructions</summary>
-<br>
+### Usage Instructions
 
 1: Type the snippet prefix - i.e. `situation` - where you're wanting to insert the snippet
 2: As you're typing, the snippet should eventually appear in the context menu. Once you've found it, hit tab on your keyboard to insert the snippet
@@ -25,12 +22,9 @@ Some snippets will have multiple-choice presets, these will show a context menu 
 
 Feel free to offer suggestions for snippets to add.
 
-</details>
-
 ### Inform 7
-<details open>
-<summary>Prefixes</summary>
-<br>
+
+#### Inform Prefixes
 
 - `say`         - New Say line
 - `ttype`       - Format inline text, bold/italic
@@ -48,19 +42,12 @@ Feel free to offer suggestions for snippets to add.
 - `newnpc`      - Create a new NPC template
 - `newroom`     - Add a new room
 
-</details>
-
 ### Godot
+
 This snippet file - like the code it is used for - is in BETA and subject to change. The snippets within the file may not always be correct.
 
-<details open>
-<summary>Prefixes</summary>
-<br>
+#### Godot Prefixes
 
 - `newnpc`      - Create a new NPC template
 - `openchoice`  - Create an open-ended choice tree
 - `say`         - New Say line
-
-</details>
-
-
